@@ -20,7 +20,7 @@ def read_text(file_path):
 
 # Function to interact with OpenAI API
 def interact_with_openai(text, query):
-    openai.api_key = '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'
+    openai.api_key = 'YOUR API KEY'
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
